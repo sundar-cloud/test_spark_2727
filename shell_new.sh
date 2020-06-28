@@ -11,7 +11,7 @@ file2='/home/hduser/sundar/test/test/dir1/dir2/file2'
 file3='/home/hduser/sundar/test/test/dir1/dir3/file3'
 
 echo "Checking for directory1 is present" >$logger
-
+#secind
 if [ -d $dir1 ]; then
 
     echo "directory1 is exists" >>$logger
