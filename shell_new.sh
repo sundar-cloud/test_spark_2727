@@ -17,13 +17,6 @@ if [ -d $dir1 ]; then
     echo "directory1 is exists" >>$logger
     
   else
-    
-    echo "directory1 is not exists" >>$logger
-    
-    mkdir $dir1
-    echo "directory1 created newly" >>$logger
-	
-fi
 
 
 
