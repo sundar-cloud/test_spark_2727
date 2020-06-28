@@ -10,7 +10,7 @@ salary_file=/home/hduser/test/salary.txt
 
 if [ -d $source_path ]; then
 
-echo " Soruce_path is exists " > $log_file
+echo " Soruce_path is exists " > $log_f
     
 
 else
